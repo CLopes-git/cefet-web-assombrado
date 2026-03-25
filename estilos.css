@@ -103,8 +103,17 @@ a:active {
   margin-bottom: .5em;
 }
 
-
-
+.novidade::before{
+  content: "Novidade!";
+  display: inline-block;
+  background: green;
+  max-width: 400px;
+  box-sizing: border-box;
+  border: 6px solid green;
+  border-radius: 5px;
+  margin-bottom: .5em;
+  font: white;
+}
 
 /* --- Principal >> Últimas postagens --- */
 #ultimas-postagens {
