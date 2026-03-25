@@ -140,6 +140,7 @@ a:active {
 #tags {
   float: right;
   width: 300px;
+  box-sizing: border-box;
   padding: 15px;
   background-color: black;
   background-image: url(imgs/mula.webp);
