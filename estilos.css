@@ -165,6 +165,15 @@ a:active {
   background-color: orange;
   color: white;
   text-shadow: 1px 1px black;
+  cursor: pointer;
+}
+
+.tag-1:active,
+.tag-2:active,
+.tag-3:active{
+  position: relative;
+  top: -2px;
+  left: -2px;
 }
 
 .tag-2 {
